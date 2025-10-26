@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardBackgroundColor="?attr/colorSurfaceVariant"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_reminder_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título del Recordatorio"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+        <TextView
+            android:id="@+id/tv_reminder_item_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contenido del recordatorio, monto, etc."
+            android:textSize="14sp"
+            android:textColor="?attr/colorOnSurfaceVariant" 
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_reminder_item_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha y Hora: dd/MM/yyyy HH:mm"
+            android:textSize="12sp"
+            android:textColor="?attr/colorOnSurfaceVariant" 
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_reminder_item_periodicity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Periodicidad: Semanal"
+            android:textSize="12sp"
+            android:textColor="?attr/colorOnSurfaceVariant" 
+            android:layout_marginTop="4dp"
+            android:visibility="gone" /> <!-- Se hará visible si es periódico -->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

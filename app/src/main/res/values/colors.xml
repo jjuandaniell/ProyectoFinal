@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de Colores Formal -->
+    <color name="md_theme_primary">#005B96</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#C7E7FF</color>
+    <color name="md_theme_onPrimaryContainer">#001D31</color>
+    <color name="md_theme_secondary">#4F616E</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_secondaryContainer">#D2E5F5</color>
+    <color name="md_theme_onSecondaryContainer">#0B1E29</color>
+    <color name="md_theme_tertiary">#635A7D</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="md_theme_tertiaryContainer">#E9DDFF</color>
+    <color name="md_theme_onTertiaryContainer">#1F1836</color>
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_background">#FCFCFF</color>
+    <color name="md_theme_onBackground">#1A1C1E</color>
+    <color name="md_theme_surface">#FCFCFF</color>
+    <color name="md_theme_onSurface">#1A1C1E</color>
+    <color name="md_theme_surfaceVariant">#DEE3EA</color>
+    <color name="md_theme_onSurfaceVariant">#41474D</color>
+    <color name="md_theme_outline">#72787E</color>
+
+    <!-- Colores Semánticos -->
+    <color name="colorIncome">#2E7D32</color> <!-- Un verde más oscuro y formal -->
+    <color name="colorExpense">#C62828</color> <!-- Un rojo más oscuro y formal -->
+
+</resources>

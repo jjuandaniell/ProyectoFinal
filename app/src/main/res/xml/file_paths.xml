@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Directorio de imágenes externas -->
+    <external-files-path
+        name="receipt_images"
+        path="Pictures/" />
+
+    <!-- Cache para archivos temporales -->
+    <cache-path
+        name="receipt_cache"
+        path="receipts/" />
+
+    <!-- Directorio de archivos internos -->
+    <files-path
+        name="receipt_files"
+        path="receipts/" />
+</paths>
+

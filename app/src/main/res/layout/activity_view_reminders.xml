@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="?attr/colorSurface"
+    tools:context=".ViewRemindersActivity">
+
+    <TextView
+        android:id="@+id/tv_title_view_reminders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mis Recordatorios Programados"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface" 
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_reminders_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_title_view_reminders"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/reminder_item_layout" />
+
+    <TextView
+        android:id="@+id/tv_no_reminders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No tienes recordatorios programados."
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurfaceVariant" 
+        android:layout_centerInParent="true"
+        android:visibility="gone" /> 
+
+</RelativeLayout>
